@@ -1,0 +1,15 @@
+<?php
+/**
+ * Created by EntitiesBuilder.
+ * User: padbrain
+ * Date: {CREATED_DATE}
+ */
+
+namespace Lastcar\dao;
+
+use Lastcar\core\Dao;
+
+class Dao{CLASSNAME} extends Dao
+{
+    public $table = "{TABLE}";
+}

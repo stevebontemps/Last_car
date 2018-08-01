@@ -1,0 +1,67 @@
+<?php
+/**
+ * Created by EntitiesBuilder.
+ * User: padbrain
+ * Date: {CREATED_DATE}
+ */
+
+namespace Lastcar\models;
+
+
+class {CLASSNAME} extends EntityModel
+{
+{DECLARATIONS}
+
+    /*
+     *      GETTERS
+     */
+
+{GETTERS}
+
+    /*
+     *      SETTERS
+     */
+
+{SETTERS}
+
+
+
+    /*
+     *      CRUD TO SEND CUSTOMIZED EXCEPTIONS FROM FAILED QUERIES
+     */
+    public function Create() {
+        $response = parent::Create();
+        if($response == 0 ):
+            throw new \Exception("La création de '{CLASSNAME}' n'a pas pu être effectuée !");
+        else:
+            return $response;
+        endif;
+    }
+
+    public function Retrieve(){
+        $response = parent::Retrieve();
+        if($response == 0 ):
+            throw new \Exception("La récupération de '{CLASSNAME}' n'a pas pu être effectuée !");
+        else:
+            return $response;
+        endif;
+    }
+
+    public function Update(){
+        $response = parent::Update();
+        if($response == 0 ):
+            throw new \Exception("La mise à jour de '{CLASSNAME}' n'a pas pu être effectuée !");
+        else:
+            return $response;
+        endif;
+    }
+
+    public function Delete(){
+        $response = parent::Delete();
+        if($response == 0 ):
+            throw new \Exception("La suppression de '{CLASSNAME}' n'a pas pu être effectuée !");
+        else:
+            return $response;
+        endif;
+    }
+}

@@ -1,0 +1,639 @@
+{
+  "/": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "scripts":{
+      "file1":"bootstrap.bundle.js"
+    },
+    "title": "Géolocalisez-vous",
+    "menu": {
+      "VISITEUR": "menuGeolocalisation",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "geolocalisation"
+    }
+  },
+  "/error404": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Page d'erreur 404",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "error404"
+    }
+  },
+  "/message": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Message de l'application",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "vue": "message"
+    }
+  },
+  "/geolocalisation": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "scripts":{
+      "file1":"script.js"
+    },
+    "title": "Géolocalisez-vous",
+    "menu": "menuGeolocalisation",
+    "content": {
+      "formulaire": "geolocalisation"
+    }
+  },
+  "/accueil": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Accueil",
+    "header": "defaultHeader",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "defaultContentAccueil"
+    }
+  },
+  "/accueil/membre": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Accueil",
+    "header": "defaultHeader",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "defaultContentAccueil"
+    }
+  },
+  "/contact/admin/form": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Contacter l'admin",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "contactAdmin"
+    }
+  },
+
+
+
+  "/dashboard/update/photo": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "tableau de bord",
+    "menu": {
+      "MEMBRE": "menuMembre",
+      "ADMIN": "menuAdmin"
+    },
+    "content": {
+      "formulaire": "dashboard"
+    }
+  },
+  "/dashboard/delete/image": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Tableau de bord",
+    "menu": {
+      "MEMBRE": "menuMembre",
+      "ADMIN": "menuAdmin"
+    },
+    "content": {
+      "reponse": "dashboard"
+    }
+  },
+  "/dashboard": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Tableau de bord",
+    "script":"script",
+    "menu": {
+      "MEMBRE": "menuMembre",
+      "ADMIN": "menuAdmin"
+    },
+    "content": {
+      "menuNav": "defaultNavMembre",
+      "reponse": "dashboard"
+    }
+  },
+
+
+  "/create/user": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Email confirmation de création d'un compte utilisateur",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "reponse": "emailConfirmation"
+    }
+  },
+
+  "/confirmMail/(:)": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Validation d'activation de votre compte",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE": "menuMembre",
+      "ADMIN": "menuAdmin"
+    },
+    "content": {
+      "reponse": "defaultContentAccueil"
+    }
+  },
+  "/presentation": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Lastcar!",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "reponse": "defaultPresentation"
+    }
+  },
+  "/registration/user/form": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "S'inscrire",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "formRegistration"
+    }
+  },
+  "/connexion/user/form": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Se connecter",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "formConnexion"
+    }
+  },
+  "/connexion/user": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Accueil membre",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "defaultContentAccueil"
+    }
+  },
+  "/deconnexion": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Accueil",
+    "menu": {
+      "VISITEUR": "menuVisiteur"
+    },
+    "content": {
+      "vue": "defaultContentAccueil"
+    }
+  },
+  "/password/recovery/form": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Saisissez votre email!",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "emailRecovery"
+    }
+  },
+  "/post/newPassword": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Saisissez votre nouveau mot de passe!",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "enterNewPassword"
+    }
+  },
+  "/show/list/trips": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Liste de trajets",
+    "scripts":"searchTrip",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "listTrips"
+    }
+  },
+  "/show/trips": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Liste de trajets",
+    "scripts":"searchTrip",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "listTrips"
+    }
+  },
+  "/show/trip": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Voir un trajet",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "consultTrip"
+    }
+  },
+  "/create/email/admin": {
+    "rights": {
+      "VISITEUR": "true",
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Contacter l'administrateur",
+    "menu": {
+      "VISITEUR": "menuVisiteur",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "contactAdmin"
+    }
+  },
+
+
+
+
+
+  "/create/evaluation/form": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Evaluer covoiturage",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "nav": "defaultNavMembre",
+      "formulaire": "laisserEvaluation"
+    }
+  },
+  "/messagerie": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Messagerie",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+       "nav": "defaultNavMembre",
+       "reponse": "messagerie"
+    }
+  },
+  "/messagerie/email/user/(:)/form": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Rédiger un email",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "nav": "defaultNavMembre",
+      "formulaire": "redigerEmail"
+    }
+  },
+  "/alerts": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Alertes",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "nav": "defaultNavMembre",
+      "reponse": "alerts"
+    }
+  },
+  "/profil/form": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Infos personnelles",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "nav": "defaultNavMembre",
+      "formulaire": "formUser"
+    }
+  },
+  "/profil": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Infos personnelles",
+    "menu": {
+      "MEMBRE": "menuMembre",
+      "ADMIN": "menuAdmin"
+    },
+    "content": {
+      "formulaire": "formUser"
+    }
+  },
+  "/profil/user/verifications": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Vérifications",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "nav": "defaultNavMembre",
+      "reponse": "verifications"
+    }
+  },
+  "/show/evaluation/given": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Avis laissés",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "nav": "defaultNavMembre",
+      "reponse": "avisLaisses"
+    }
+  },
+  "/show/evaluation/received": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Avis reçus",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "nav": "defaultNavMembre",
+      "reponse": "avisRecus"
+    }
+  },
+  "/calcul/trip/form/add": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Calculer le prix du trajet",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "calculTrip"
+    }
+  },
+  
+  "/calcul/trip/form": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Calculer le prix du trajet",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "calculTrip"
+    }
+  },
+  "/edit/trip/form": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "header":"editTripHeader",
+    "title": "Proposer un trajet",
+    "scripts": "trajet",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "editTrip"
+    }
+  },
+  "/show/evenement/(:)/form": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Page événement",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "pageEvenement"
+    }
+  },
+  "/show/user/profil": {
+    "rights": {
+      "MEMBRE": "true",
+      "ADMIN": "true"
+    },
+    "title": "Profil covoitureur",
+    "menu": {
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "content": {
+      "formulaire": "showUser"
+    }
+  },
+
+
+
+
+
+
+
+
+  "/manage/users/form": {
+    "rights": {
+      "ADMIN": "true"
+    },
+    "title": "Gestion utilisateurs",
+    "menu": "menuAdmin",
+    "content": {
+      "nav": "defaultNavMembre",
+      "formulaire": "gestionUsers"
+    }
+  },
+  "/manage/registration/form": {
+    "rights": {
+      "ADMIN": "true"
+    },
+    "title": "Gestion inscriptions",
+    "menu": "menuAdmin",
+    "content": {
+      "nav": "defaultNavMembre",
+      "formulaire": "gestionRegistration"
+    }
+  },
+  "/manage/evenement/form": {
+    "rights": {
+      "ADMIN": "true"
+    },
+    "title": "Outil création événements",
+    "menu": "menuAdmin",
+    "content": {
+        "nav": "defaultNavMembre",
+        "formulaire": "evenementTool"
+    }
+  },
+
+  "/search/trip/places":{
+    "rights": {
+      "VISITEUR": "menuGeolocalisation",
+      "MEMBRE":"menuMembre",
+      "ADMIN":"menuAdmin"
+    },
+    "title": "Outil création événements",
+    "menu": "menuAdmin",
+    "content": {
+      "nav": "defaultNavMembre",
+      "formulaire": "evenementTool"
+    }
+  }
+}

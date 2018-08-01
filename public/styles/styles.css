@@ -1,0 +1,132 @@
+
+html{
+    background-color: rgba(65,65,65,0.25);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, #logo{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #2a2a2a;
+    background-color: orangered;
+    color: #fff;
+    height: 58px;
+    border-bottom-left-radius: 25px;
+    /*border-bottom-right-radius: 25px;*/
+    /*box-shadow: 8px 8px 0px #3a3a3a;*/
+}
+
+#siteName a{
+    color: #fff;
+}
+
+h1{
+    color:orangered;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 5fr 6fr;
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-column-gap: 15px;
+    list-style: none;
+    cursor: pointer;
+    height: 100%;
+    margin: 0;
+}
+
+header nav ul:hover{
+}
+
+header nav ul li {
+    text-align: center;
+    height: 100%;
+    line-height: 350%;
+    /*border-left: 1px solid orangered;*/
+    /*border-right: 1px solid orangered;*/
+    /*border-bottom: 1px solid orangered;*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header nav ul li:hover{
+    background-color: orangered;
+    border-bottom: 20px solid midnightblue;
+    height: 75%;
+    line-height: 350%;
+    /*box-shadow: 3px 8px 0px #3a3a3a;*/
+    /*box-shadow: 3px 3px 3px 3px#A75622;/*/
+}
+
+header nav ul li a{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.error{
+    font-weight: bold;
+    color:red;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+}
+
+.menuNav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 4fr;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    height: 100%;
+    line-height: 100%;
+    margin: 0;
+    padding: 0.5vh 0;
+}
+
+.navigation:hover {
+    background-color: orange;
+}
+
+.navigation a{
+    max-width: 100%;
+    text-decoration: none;
+}
+
+.imageProfile{
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 38px;
+}
+
+.ficheTrajet{
+    background-color: rgba(65,65,65,0.25);
+    border-radius: 8px;
+    width: 80%;
+}
+
+.ficheTrajet h2{
+    color: #71dd8a;
+    border-radius: 4px;
+    background-color: #1b1e21;
+    /*font-weight: bold;*/
+    font-size: 1.2em;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/admin/evenementTool.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/models/Evenements.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/models/Blocages_users.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/models/Adresses.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/controllers/SurfeurController.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/visiteur/geolocalisation.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/visiteur/listTrips.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/models/EntityModel.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/visiteur/formConnexion.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/editTrip.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/config/database.json</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/menus/menuVisiteur.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/alerts.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/config/rights.json</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/default/defaultHeader.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/avisLaisses.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/menus/menuGeolocalisation.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/visiteur/formRegistration.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/laisserEvaluation.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/default/defaultContentAccueil.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/menus/menuAdmin.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/avisRecus.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/calculTrip.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/messagerie.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/verifications.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/dashboard.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/showUser.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/models/Alerts.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/default/defaultPresentation.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/admin/gestionRegistration.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/redigerEmail.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/config/views.json</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/menus/menuMembre.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/default/message.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/core/Controller.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/config/database.sql</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/default/defaultFooter.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/controllers/DefaultController.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/public/js/script.js</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/admin/gestionUsers.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/pageEvenement.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/config/routing.json</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/core/CrudInterface.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/default/defaultNavMembre.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/default/defaultNavAdmin.php</file>
+            <file>file:/home/lucie2/Serveurweb/lastcar/views/membre/formUser.php</file>
+        </group>
+    </open-files>
+</project-private>

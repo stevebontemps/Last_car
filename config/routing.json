@@ -1,0 +1,53 @@
+{
+    "/users/getAll": "UsersController:getAll",
+    "/users/getAllBy": "UsersController:getAllBy",
+    "/user/getbyid/(:)" : "UsersController:getById",
+
+    "/registration/user/form" : "UsersController:showForm",
+    "/create/user": "UsersController:createUserAction",
+    "/confirmDelete/user/(:)":"UsersController:deleteUserForm",
+    "/delete/user/(:)": "UsersController:deleteUserAction",
+    "/deconnexion" : "UsersController:deconnexion",
+    "/connexion/user/form": "UsersController:showForm",
+    "/connexion/user": "UsersController:connexionUserAction",
+    "/confirmMail/(:)" : "UsersController:confirmMail",
+
+    "/dashboard":              "SurfeurController:dashboard",
+    "/dashboard/update/photo":  "SurfeurController:updateImage",
+    "/dashboard/delete/image": "SurfeurController:deleteImageProfil",
+
+    "/":                                "DefaultController:redirectAccueil",
+    "/message":                         "DefaultController:showForm",
+    "/accueil":                         "DefaultController:showForm",
+    "/accueil/membre":                  "DefaultController:showForm",
+    "/geolocalisation":                 "DefaultController:showForm",
+    "/presentation":                    "DefaultController:showForm",
+    "/create/email/admin":              "DefaultController:showForm",
+    "/edit/trip/form":                  "DefaultController:showForm",
+    "/show/list/trips":                 "TrajetController:showListTrips",
+    "/show/trips":                      "TrajetController:showSelectTrips",
+    "/create/evaluation/form":          "DefaultController:showForm",
+    "/messagerie":                      "DefaultController:showForm",
+    "/messagerie/email/user/(:)/form":  "DefaultController:showForm",
+    "/alerts":                          "DefaultController:showForm",
+    "/profil/form":                     "SurfeurController:updateProfilForm",
+    "/profil":                          "SurfeurController:updateProfilAction",
+    "/profil/user/verifications":       "DefaultController:showForm",
+    "/show/evaluation/given":           "DefaultController:showForm",
+    "/show/evaluation/received":        "DefaultController:showForm",
+    "/calcul/trip/form/add" :               "TrajetController:addTrajet",
+    "/calcul/trip/form":                "TrajetController:getInfo",
+
+    "/show/evenement/(:)/form":         "DefaultController:showForm",
+    "/show/user/profil":                "DefaultController:showForm",
+
+
+    "/manage/users/form":               "DefaultController:showForm",
+    "/manage/registration/form":        "DefaultController:showForm",
+    "/manage/evenement/form":           "DefaultController:showForm",
+
+
+    "/search/trip/places":{
+        "GET":"ApiController:getAllPlaces"
+    }
+}

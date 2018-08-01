@@ -1,0 +1,7 @@
+{
+  "/":{"VISITEUR", "MEMBRE", "ADMIN"},
+
+  "/create/user/form": {"VISITEUR", "MEMBRE", "ADMIN"},
+  "/create/user": {"VISITEUR", "MEMBRE", "ADMIN"},
+  "/connexion/user/form": {"VISITEUR", "MEMBRE", "ADMIN"}
+}
